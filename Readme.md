@@ -6,18 +6,22 @@ A monolithic stock tracking application with a React frontend and Express backen
 
 - Node.js (v14 or later)
 - npm (v6 or later)
+- Mongodb compass account 
 
 ## Installation and Setup
 
 1. Clone the repository:
 2. Install dependencies for both frontend and backend:
 3. Set up environment variables:
-Create a `.env` file in the root directory and add:
-PORT=8000
-DATABASE_URL=[Your database connection string]
+
+Create a `.env` file in the root directory of backend and add:
+
+DATABASE_URL=[Your database connection string] use Mongodb compass 
 JWT_SECRET=[Your JWT secret key]
 
-This command will start both the backend server on port 8000 and the React development server on port 5173.
+start both the servers seperately.
+- `npm run dev`: Starts frontend 
+- `nodemon app.js`: Starts only the backend server
 
 ## Usage
 
@@ -28,9 +32,6 @@ This command will start both the backend server on port 8000 and the React devel
 ## Available Scripts
 
 In the project directory, you can run:
-
-- `npm run dev`: Starts frontend 
-- `nodemon app.js`: Starts only the backend server
 
 
 ## Project Structure
