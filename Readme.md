@@ -34,22 +34,24 @@ In the project directory, you can run:
 
 
 ## Project Structure
+project-root/
 │
-├── client/                 # React frontend
+├── client/                     # React frontend
 │   ├── public/
 │   ├── src/
 │   ├── package.json
-│   └── vite.config.js      # Vite configuration for React
+│   └── vite.config.js          # Vite configuration for React
 │
-├── server/                 # Express backend
+├── server/                     # Express backend
 │   ├── routes/
 │   ├── models/
 │   ├── controllers/
-│   └── server.js           # Express app entry point
-│   ├──.env
-|   # Environment variables
-|
-└── README.md
+│   ├── server.js               # Express app entry point
+│   ├── .env                    # Environment variables
+│   └── package.json            # Project dependencies and scripts
+│
+└── README.md                   # Project documentation
+
 
 ## API Endpoints
 
